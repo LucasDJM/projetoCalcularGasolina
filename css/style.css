@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(darkred, white);
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center;
+}
+
+#central{
+    width: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black; /* primeiro cima pra baixo segundo pro lado e po outro terceiro ao redor todo*/
+    display: flex;
+    flex-direction: column;
+}
+
+#central form{
+    display: flex;
+    flex-direction: column;
+}
+
+#central form input{
+    padding: 8px 12px;/* oito para cima e baico 12 para laterais*/
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: silver;
+    margin-top: 4px; /* 4 de margem para cima de cata label*/
+    margin-bottom: 15px;/* 15 de margem para os itens a baixo de cada label*/
+    width: 400px;
+    box-shadow: 1px 1px 3px darkred;
+}
+
+#central form label{
+    color: darkred;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    width: 400px; /*largura */
+}
+
+#central form button{
+    width: 400px;
+    padding: 15px;
+    background: darkred;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#central form button:hover{
+    -xpedu-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        transform: scale(105%);
+        background:red;
+        opacity: 70%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+
+    -webkit-appearance: none;
+}
+
+
+
